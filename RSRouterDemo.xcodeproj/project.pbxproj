@@ -108,6 +108,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4502A2F52549982D005ABA65 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				456509C125413E8F000AAA0F /* Category */,
+				456509A625413BA8000AAA0F /* Router */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		456509A625413BA8000AAA0F /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,8 +164,7 @@
 		4589E839253EC0ED00757960 /* RSRouterDemo */ = {
 			isa = PBXGroup;
 			children = (
-				456509C125413E8F000AAA0F /* Category */,
-				456509A625413BA8000AAA0F /* Router */,
+				4502A2F52549982D005ABA65 /* Classes */,
 				4589E83A253EC0ED00757960 /* AppDelegate.h */,
 				4589E83B253EC0ED00757960 /* AppDelegate.m */,
 				4589E83D253EC0ED00757960 /* SceneDelegate.h */,

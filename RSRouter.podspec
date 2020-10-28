@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "RSRouter"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "中间件"
   spec.description  = "中间件-路由"
   spec.homepage     = "https://github.com/air1120/RSRouterDemo.git"
@@ -19,5 +19,6 @@ Pod::Spec.new do |spec|
 
   spec.frameworks   = "UIKit", "Foundation" #支持的框架
   spec.source       = { :git => "https://github.com/air1120/RSRouterDemo.git", :tag => "#{spec.version}" }
-  spec.source_files  = "RSRouterDemo/Classes/*.{h,m}"
+  spec.source_files  = "Classes/**/*.{h,m}"
+  spec.dependency 'JLRouter', '~> 2.1'
 end
